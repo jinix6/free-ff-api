@@ -453,3 +453,12 @@ If there are errors in the request, the API will return an appropriate error mes
   "message": "Unsupported 'region' parameter. Supported regions are: IND, BR, SG, RU, ID, TW, US, VN, TH, ME, PK."
 }
 ```
+
+
+#### Error Example (Invalid map_code)
+```json
+{
+  "error": "Invalid request",
+  "message": "Empty 'map_code' parameter. Please provide a valid 'map_code'."
+}
+```
