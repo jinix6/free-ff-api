@@ -326,7 +326,7 @@ GET https://free-ff-api.vercel.app/api/v1/account?region=IND&uid=1633864660
 **Method:** `GET`  
 **Description:** Retrieve detailed information about a specific Craftland profile, including user statistics, created maps, resources used, and other related data.
 
-**Query Parameters:**
+### Query Parameters:
 | Parameter | Type   | Required | Description                   |
 |-----------|--------|----------|-------------------------------|
 | `region`  | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, VN, `TH`, `ME`, `PK`).|
