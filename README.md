@@ -11,7 +11,7 @@ This endpoint retrieves account information based on the specified region and us
 
 | Parameter | Type   | Required | Description                   |
 |-----------|--------|----------|-------------------------------|
-| `region`  | string | Yes      | The region code (e.g., "IND").|
+| `region`  | string | Yes      | The region code (IND, BR, SG, RU, ID, TW, US, VN, TH, ME, PK).|
 | `uid`     | string | Yes      | The user ID.                  |
 
 ### Request Example
