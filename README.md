@@ -323,14 +323,14 @@ The response is a JSON object containing the account details for the specified u
 ### Error Responses
 If there are errors in the request, the API will return an appropriate error message.
 
-## Error Example (Invalid uid)
+#### Error Example (Invalid uid)
 ```json
 {
   "error": "Invalid request",
   "message": "Empty 'uid' parameter. Please provide a valid 'uid'."
 }
 ```
-## Error Example (Invalid region)
+#### Error Example (Invalid region)
 ```json
 {
   "error": "Invalid request",
