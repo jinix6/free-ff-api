@@ -341,7 +341,7 @@ The response is a JSON object containing the account details for the specified u
 GET https://free-ff-api.vercel.app/api/v1/craftlandProfile?region=IND&uid=1633864660
 ```
 
-### Error Responses
+# Error Responses
 If there are errors in the request, the API will return an appropriate error message.
 
 #### Error Example (Invalid uid)
