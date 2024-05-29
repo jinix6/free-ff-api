@@ -16,7 +16,7 @@ This endpoint retrieves account information based on the specified region and us
 
 ### Request Example
 ```http
-GET http://127.0.0.1:5000/api/v1/account?region=IND&uid=1633864660
+GET https://free-ff-api.vercel.app/api/v1/account?region=IND&uid=1633864660
 ```
 
 ### Response
