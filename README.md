@@ -5,7 +5,7 @@
 2. [Player Stats](https://github.com/jinix6/free-ff-api?tab=readme-ov-file#-player-stats)
 3. [Craftland Profile Information](https://github.com/jinix6/free-ff-api?tab=readme-ov-file#%EF%B8%8F-craftland-profile-information)
 4. [Craftland Map Information](https://github.com/jinix6/free-ff-api?tab=readme-ov-file#-craftland-map-information)
-5. [Error Responses](https://github.com/jinix6/free-ff-api?tab=readme-ov-file#error-responses)
+5. [Error Responses](https://github.com/jinix6/free-ff-api#-error-responses)
 
 # 🪪 Account Information
 **Endpoint:** `/api/v1/account`  
