@@ -1,13 +1,13 @@
-# API Documentation
+# 📝 API Documentation
 
-## Table of Contents
+## 📌 Table of Contents
 1. [Account Information](#account-information)
 2. [Player Stats](#player-stats)
 3. [Craftland Profile Information](#craftland-profile-information)
 4. [Craftland Map Information](#craftland-map-information)
 5. [Error Responses](#error-responses)
 
-# Account Information
+# 🪪 Account Information
 **Endpoint:** `/api/v1/account`  
 **Method:** `GET`  
 **Description**
@@ -323,7 +323,7 @@ GET https://free-ff-api.vercel.app/api/v1/account?region=IND&uid=1633864660
 }
 ```
 
-# Craftland Profile Information
+# ⚙️ Craftland Profile Information
 **Endpoint:** `/api/v1/craftlandProfile`  
 **Method:** `GET`  
 **Description:** Retrieve detailed information about a specific Craftland profile, including user statistics, created maps, resources used, and other related data.
@@ -382,7 +382,7 @@ GET https://free-ff-api.vercel.app/api/v1/craftlandProfile?region=IND&uid=163386
 }
 ```
 
-# Craftland Map Information
+# 🏠 Craftland Map Information
 **Endpoint:** `/api/v1/craftlandInfo`  
 **Method:** `GET`  
 **Description:** Retrieve detailed information about a specific Craftland map, including map details, resources used, and other related data.
@@ -430,7 +430,7 @@ GET https://free-ff-api.vercel.app/api/v1/craftlandInfo?region=IND&map_code=2D1A
 ```
 
 
-# Player Stats
+# 📊 Player Stats
 
 **Endpoint:** `/api/v1/playerstats`  
 **Method:** `GET`  
