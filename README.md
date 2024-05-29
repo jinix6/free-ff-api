@@ -385,14 +385,14 @@ GET https://free-ff-api.vercel.app/api/v1/craftlandProfile?region=IND&uid=163386
 **Method:** `GET`  
 **Description:** Retrieve detailed information about a specific Craftland map, including map details, resources used, and other related data.
 
-**Query Parameters:**
+## Query Parameters:
 
 | Parameter  | Type   | Required | Description                                   |
 |------------|--------|----------|-----------------------------------------------|
 | `region`   | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, VN, `TH`, `ME`, `PK`).                |
 | `map_code` | string | Yes      | The unique code of the Craftland map.         |
 
-**Request Example:**
+### Request Example:
 ```http
 GET https://free-ff-api.vercel.app/api/v1/craftlandInfo?region=IND&map_code=2D1AA949DD77714ABB1FA0CE3ECCAFB34660
 ```
