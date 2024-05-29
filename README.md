@@ -328,7 +328,7 @@ GET https://free-ff-api.vercel.app/api/v1/account?region=IND&uid=1633864660
 **Method:** `GET`  
 **Description:** Retrieve detailed information about a specific Craftland profile, including user statistics, created maps, resources used, and other related data.
 
-### Query Parameters:
+### Query Parameters
 | Parameter | Type   | Required | Description                   |
 |-----------|--------|----------|-------------------------------|
 | `region`  | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, `VN`, `TH`, `ME`, `PK`).|
@@ -394,7 +394,7 @@ GET https://free-ff-api.vercel.app/api/v1/craftlandProfile?region=IND&uid=163386
 | `region`   | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, `VN`, `TH`, `ME`, `PK`).                |
 | `map_code` | string | Yes      | The unique code of the Craftland map.         |
 
-### Request Example:
+### Request Example
 ```http
 GET https://free-ff-api.vercel.app/api/v1/craftlandInfo?region=IND&map_code=2D1AA949DD77714ABB1FA0CE3ECCAFB34660
 ```
@@ -436,7 +436,7 @@ GET https://free-ff-api.vercel.app/api/v1/craftlandInfo?region=IND&map_code=2D1A
 **Method:** `GET`  
 **Description:** Retrieve detailed statistics for a specific player, including matches played, wins, kills, and other related data.
 
-### Query Parameters:
+### Query Parameters
 
 | Parameter | Type   | Required | Description                                   |
 |-----------|--------|----------|-----------------------------------------------|
