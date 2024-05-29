@@ -1,13 +1,14 @@
 # API Documentation
 
 ## Table of Contents
-1. [Account Information](#endpoint-apiv1account)
+1. [Account Information](#account-information)
+    - [Endpoint](#endpoint-apiv1account)
     - [Query parameters](#query-parameters)
     - [Request Example](#request-example)
     - [Response Example](#response-example)
-2. [Error Responses](#error-responses)
+3. [Error Responses](#error-responses)
 
-
+# Account Information
 ## Endpoint: `/api/v1/account`
 
 ### Method: `GET`
