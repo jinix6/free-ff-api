@@ -500,7 +500,7 @@ GET https://free-ff-api.vercel.app/api/v1/playerstats?region=IND&uid=1633864660
 # 😵 Error Responses
 If there are errors in the request, the API will return an appropriate error message.
 
-#### Error Example (Invalid uid)
+#### ⚠️ Error Example (Invalid uid)
 ```json
 {
   "error": "Invalid request",
@@ -509,7 +509,7 @@ If there are errors in the request, the API will return an appropriate error mes
 ```
 
 
-#### Error Example (Invalid region)
+#### ⚠️ Error Example (Invalid region)
 ```json
 {
   "error": "Invalid request",
@@ -524,7 +524,7 @@ If there are errors in the request, the API will return an appropriate error mes
 ```
 
 
-#### Error Example (Invalid map_code)
+#### ⚠️ Error Example (Invalid map_code)
 ```json
 {
   "error": "Invalid request",
