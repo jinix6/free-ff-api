@@ -19,7 +19,7 @@ This endpoint retrieves account information based on the specified region and us
 |-----------|--------|----------|-------------------------------|
 | `region`  | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, `VN`, `TH`, `ME`, `PK`).|
 | `uid`     | string | Yes      | The user ID.                  |
-### Request Example
+### 📨 Request Example
 ```http
 GET https://free-ff-api.vercel.app/api/v1/account?region=IND&uid=1633864660
 ```
@@ -333,7 +333,7 @@ GET https://free-ff-api.vercel.app/api/v1/account?region=IND&uid=1633864660
 |-----------|--------|----------|-------------------------------|
 | `region`  | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, `VN`, `TH`, `ME`, `PK`).|
 | `uid`     | string | Yes      | The user ID.                  |
-### Request Example
+### 📨 Request Example
 ```http
 GET https://free-ff-api.vercel.app/api/v1/craftlandProfile?region=IND&uid=1633864660
 ```
@@ -394,7 +394,7 @@ GET https://free-ff-api.vercel.app/api/v1/craftlandProfile?region=IND&uid=163386
 | `region`   | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, `VN`, `TH`, `ME`, `PK`).                |
 | `map_code` | string | Yes      | The unique code of the Craftland map.         |
 
-### Request Example
+### 📨 Request Example
 ```http
 GET https://free-ff-api.vercel.app/api/v1/craftlandInfo?region=IND&map_code=2D1AA949DD77714ABB1FA0CE3ECCAFB34660
 ```
@@ -443,7 +443,7 @@ GET https://free-ff-api.vercel.app/api/v1/craftlandInfo?region=IND&map_code=2D1A
 | `region`  | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, `VN`, `TH`, `ME`, `PK`).                |
 | `uid`     | string | Yes      | The user ID of the player.                    |
 
-### Request Example
+### 📨 Request Example
 ```http
 GET https://free-ff-api.vercel.app/api/v1/playerstats?region=IND&uid=1633864660
 ```
