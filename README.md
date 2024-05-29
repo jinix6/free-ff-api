@@ -22,8 +22,6 @@ This endpoint retrieves account information based on the specified region and us
 GET https://free-ff-api.vercel.app/api/v1/account?region=IND&uid=1633864660
 ```
 
-### Response
-The response is a JSON object containing the account details for the specified user in the given region.
 
 ### Response Example
 ```json
