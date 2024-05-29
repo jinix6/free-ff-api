@@ -497,7 +497,7 @@ GET https://free-ff-api.vercel.app/api/v1/playerstats?region=IND&uid=1633864660
 
 
 
-# Error Responses
+# 😵 Error Responses
 If there are errors in the request, the API will return an appropriate error message.
 
 #### Error Example (Invalid uid)
