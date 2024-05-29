@@ -531,3 +531,17 @@ If there are errors in the request, the API will return an appropriate error mes
   "message": "Empty 'map_code' parameter. Please provide a valid 'map_code'."
 }
 ```
+
+
+
+
+
+## ⭐️ Star Our Repository
+
+If you find this project helpful, please consider giving it a star on GitHub! 🌟
+
+Starring the repository helps us know that our work is valuable to you and motivates us to keep improving and adding new features.
+
+[Star the Repository on GitHub](https://github.com/jinix6/free-ff-api)
+
+Thank you for your support!
