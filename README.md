@@ -2,9 +2,10 @@
 
 ## Table of Contents
 1. [Account Information](#account-information)
-2. [Craftland Profile Information](#craftland-profile-information)
-3. [Craftland Map Information](#craftland-map-information)
-4. [Error Responses](#error-responses)
+2. [Player Stats](#player-stats)
+3. [Craftland Profile Information](#craftland-profile-information)
+4. [Craftland Map Information](#craftland-map-information)
+5. [Error Responses](#error-responses)
 
 # Account Information
 **Endpoint:** `/api/v1/account`  
@@ -16,7 +17,7 @@ This endpoint retrieves account information based on the specified region and us
 
 | Parameter | Type   | Required | Description                   |
 |-----------|--------|----------|-------------------------------|
-| `region`  | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, VN, `TH`, `ME`, `PK`).|
+| `region`  | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, `VN`, `TH`, `ME`, `PK`).|
 | `uid`     | string | Yes      | The user ID.                  |
 ### Request Example
 ```http
@@ -330,7 +331,7 @@ GET https://free-ff-api.vercel.app/api/v1/account?region=IND&uid=1633864660
 ### Query Parameters:
 | Parameter | Type   | Required | Description                   |
 |-----------|--------|----------|-------------------------------|
-| `region`  | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, VN, `TH`, `ME`, `PK`).|
+| `region`  | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, `VN`, `TH`, `ME`, `PK`).|
 | `uid`     | string | Yes      | The user ID.                  |
 ### Request Example
 ```http
@@ -386,11 +387,11 @@ GET https://free-ff-api.vercel.app/api/v1/craftlandProfile?region=IND&uid=163386
 **Method:** `GET`  
 **Description:** Retrieve detailed information about a specific Craftland map, including map details, resources used, and other related data.
 
-### Query Parameters:
+### Query Parameters
 
 | Parameter  | Type   | Required | Description                                   |
 |------------|--------|----------|-----------------------------------------------|
-| `region`   | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, VN, `TH`, `ME`, `PK`).                |
+| `region`   | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, `VN`, `TH`, `ME`, `PK`).                |
 | `map_code` | string | Yes      | The unique code of the Craftland map.         |
 
 ### Request Example:
@@ -427,6 +428,74 @@ GET https://free-ff-api.vercel.app/api/v1/craftlandInfo?region=IND&map_code=2D1A
   }
 }
 ```
+
+
+# Player Stats
+
+**Endpoint:** `/api/v1/playerstats`  
+**Method:** `GET`  
+**Description:** Retrieve detailed statistics for a specific player, including matches played, wins, kills, and other related data.
+
+### Query Parameters:
+
+| Parameter | Type   | Required | Description                                   |
+|-----------|--------|----------|-----------------------------------------------|
+| `region`  | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, `VN`, `TH`, `ME`, `PK`).                |
+| `uid`     | string | Yes      | The user ID of the player.                    |
+
+### Request Example
+```http
+GET https://free-ff-api.vercel.app/api/v1/playerstats?region=IND&uid=1633864660
+```
+### Response Example
+```json
+{
+  "soloStats": {
+    "accountId": "1633864660",
+    "gamesPlayed": 12,
+    "wins": 2,
+    "kills": 55,
+    "detailedStats": {
+      "deaths": 10,
+      "topNTimes": 5,
+      "distanceTravelled": 45943,
+      "survivalTime": 4585,
+      "highestKills": 14,
+      "damage": 17442,
+      "headshots": 49,
+      "headshotKills": 14,
+      "pickUps": 1382
+    }
+  },
+  "duoStats": {
+    "accountId": "1633864660",
+    "detailedStats": {}
+  },
+  "quadStats": {
+    "accountId": "1633864660",
+    "gamesPlayed": 26,
+    "wins": 5,
+    "kills": 110,
+    "detailedStats": {
+      "deaths": 21,
+      "topNTimes": 9,
+      "distanceTravelled": 112408,
+      "survivalTime": 16246,
+      "revives": 19,
+      "highestKills": 11,
+      "damage": 51276,
+      "roadKills": 1,
+      "headshots": 55,
+      "headshotKills": 15,
+      "knockDown": 123,
+      "pickUps": 3133
+    }
+  }
+}
+```
+
+
+
 
 # Error Responses
 If there are errors in the request, the API will return an appropriate error message.
