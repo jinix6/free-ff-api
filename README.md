@@ -25,7 +25,7 @@ GET https://free-ff-api.vercel.app/api/v1/account?region=IND&uid=1633864660
 ```
 
 
-### Response Example
+### 💬 Response Example
 ```json
 
 {
@@ -337,7 +337,7 @@ GET https://free-ff-api.vercel.app/api/v1/account?region=IND&uid=1633864660
 ```http
 GET https://free-ff-api.vercel.app/api/v1/craftlandProfile?region=IND&uid=1633864660
 ```
-### Response Example
+### 💬 Response Example
 
 ```json
 
@@ -399,7 +399,7 @@ GET https://free-ff-api.vercel.app/api/v1/craftlandProfile?region=IND&uid=163386
 GET https://free-ff-api.vercel.app/api/v1/craftlandInfo?region=IND&map_code=2D1AA949DD77714ABB1FA0CE3ECCAFB34660
 ```
 
-### Response Example
+### 💬 Response Example
 
 ```json
 {
@@ -447,7 +447,7 @@ GET https://free-ff-api.vercel.app/api/v1/craftlandInfo?region=IND&map_code=2D1A
 ```http
 GET https://free-ff-api.vercel.app/api/v1/playerstats?region=IND&uid=1633864660
 ```
-### Response Example
+### 💬 Response Example
 ```json
 {
   "soloStats": {
