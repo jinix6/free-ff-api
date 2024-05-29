@@ -385,7 +385,7 @@ GET https://free-ff-api.vercel.app/api/v1/craftlandProfile?region=IND&uid=163386
 **Method:** `GET`  
 **Description:** Retrieve detailed information about a specific Craftland map, including map details, resources used, and other related data.
 
-## Query Parameters:
+### Query Parameters:
 
 | Parameter  | Type   | Required | Description                                   |
 |------------|--------|----------|-----------------------------------------------|
