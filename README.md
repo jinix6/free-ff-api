@@ -3,7 +3,8 @@
 ## Table of Contents
 1. [Account Information](#account-information)
 2. [Craftland Profile Information](#craftland-profile-information)
-3. [Error Responses](#error-responses)
+3. [Craftland Map Information](#craftland-map-information)
+4. [Error Responses](#error-responses)
 
 # Account Information
 **Endpoint:** `/api/v1/account`  
