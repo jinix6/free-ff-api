@@ -2,18 +2,15 @@
 
 ## Table of Contents
 1. [Account Information](#account-information)
-    - [Endpoint](#endpoint-apiv1account)
     - [Query parameters](#query-parameters)
     - [Request Example](#request-example)
     - [Response Example](#response-example)
 3. [Error Responses](#error-responses)
 
 # Account Information
-## Endpoint: `/api/v1/account`
-
-### Method: `GET`
-
-### Description
+**Endpoint:** `/api/v1/account`  
+**Method:** `GET`  
+**Description**
 This endpoint retrieves account information based on the specified region and user ID.
 
 ### Query Parameters
@@ -22,7 +19,6 @@ This endpoint retrieves account information based on the specified region and us
 |-----------|--------|----------|-------------------------------|
 | `region`  | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, VN, `TH`, `ME`, `PK`).|
 | `uid`     | string | Yes      | The user ID.                  |
-
 ### Request Example
 ```http
 GET https://free-ff-api.vercel.app/api/v1/account?region=IND&uid=1633864660
@@ -328,6 +324,18 @@ The response is a JSON object containing the account details for the specified u
   ]
 }
 ```
+
+# Craftland Profile Information
+**Endpoint:** `/api/v1/craftlandProfile`  
+**Method:** `GET`  
+**Description:** Retrieve detailed information about a specific Craftland profile, including user statistics, created maps, resources used, and other related data.
+
+**Query Parameters:**
+| Parameter | Type   | Required | Description                   |
+|-----------|--------|----------|-------------------------------|
+| `region`  | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, VN, `TH`, `ME`, `PK`).|
+| `uid`     | string | Yes      | The user ID.                  |
+
 
 ### Error Responses
 If there are errors in the request, the API will return an appropriate error message.
