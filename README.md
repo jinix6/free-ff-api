@@ -5,6 +5,7 @@
     - [Query parameters](#query-parameters)
     - [Request Example](#request-example)
     - [Response Example](#response-example)
+2. [Craftland Profile Information](#craftland-profile-information)
 3. [Error Responses](#error-responses)
 
 # Account Information
