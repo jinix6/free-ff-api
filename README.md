@@ -336,7 +336,10 @@ The response is a JSON object containing the account details for the specified u
 |-----------|--------|----------|-------------------------------|
 | `region`  | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, VN, `TH`, `ME`, `PK`).|
 | `uid`     | string | Yes      | The user ID.                  |
-
+### Request Example
+```http
+GET https://free-ff-api.vercel.app/api/v1/craftlandProfile?region=IND&uid=1633864660
+```
 
 ### Error Responses
 If there are errors in the request, the API will return an appropriate error message.
@@ -348,6 +351,8 @@ If there are errors in the request, the API will return an appropriate error mes
   "message": "Empty 'uid' parameter. Please provide a valid 'uid'."
 }
 ```
+
+
 #### Error Example (Invalid region)
 ```json
 {
