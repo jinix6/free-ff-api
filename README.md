@@ -2,7 +2,7 @@
 
 ## 📌 Table of Contents
 1. [Account Information](https://github.com/jinix6/free-ff-api?tab=readme-ov-file#-account-information)
-2. [Player Stats](https://github.com/jinix6/free-ff-api?tab=readme-ov-file#player-stats)
+2. [Player Stats](https://github.com/jinix6/free-ff-api?tab=readme-ov-file#-player-stats)
 3. [Craftland Profile Information](https://github.com/jinix6/free-ff-api?tab=readme-ov-file#craftland-profile-information)
 4. [Craftland Map Information](https://github.com/jinix6/free-ff-api?tab=readme-ov-file#craftland-map-information)
 5. [Error Responses](https://github.com/jinix6/free-ff-api?tab=readme-ov-file#error-responses)
