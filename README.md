@@ -27,7 +27,6 @@ GET https://free-ff-api.vercel.app/api/v1/account?region=IND&uid=1633864660
 
 ### 💬 Response Example
 ```json
-
 {
   "basicInfo": {
     "accountId": "1633864660",
@@ -35,19 +34,19 @@ GET https://free-ff-api.vercel.app/api/v1/account?region=IND&uid=1633864660
     "nickname": "╰ᴼᴰ╯✿Lɪᴘᴀɴ࿐",
     "region": "IND",
     "level": 73,
-    "exp": 4025569,
+    "exp": 4027433,
     "bannerId": 901000009,
     "headPic": 902000045,
     "rank": 220,
-    "rankingPoints": 3743,
-    "badgeCnt": 81,
+    "rankingPoints": 3896,
+    "badgeCnt": 105,
     "badgeId": 1001000072,
     "seasonId": 39,
-    "liked": 20118,
+    "liked": 20134,
     "showRank": true,
-    "lastLoginAt": "1716805711",
+    "lastLoginAt": "1717066157",
     "csRank": 219,
-    "csRankingPoints": 84,
+    "csRankingPoints": 88,
     "weaponSkinShows": [
       907192607,
       912034002
@@ -70,6 +69,14 @@ GET https://free-ff-api.vercel.app/api/v1/account?region=IND&uid=1633864660
     "avatarId": 102000007,
     "clothes": [
       50
+    ],
+    "equipedSkills": [
+      211000032,
+      205000059,
+      214000067,
+      203000191,
+      204000515,
+      211000859
     ],
     "pvePrimaryWeapon": 1,
     "endTime": 1,
@@ -236,7 +243,7 @@ GET https://free-ff-api.vercel.app/api/v1/account?region=IND&uid=1633864660
     "captainId": "1633864660",
     "clanLevel": 3,
     "capacity": 30,
-    "memberNum": 18
+    "memberNum": 20
   },
   "captainBasicInfo": {
     "accountId": "1633864660",
@@ -244,19 +251,19 @@ GET https://free-ff-api.vercel.app/api/v1/account?region=IND&uid=1633864660
     "nickname": "╰ᴼᴰ╯✿Lɪᴘᴀɴ࿐",
     "region": "IND",
     "level": 73,
-    "exp": 4025569,
+    "exp": 4027433,
     "bannerId": 901000009,
     "headPic": 902000045,
     "rank": 220,
-    "rankingPoints": 3743,
-    "badgeCnt": 81,
+    "rankingPoints": 3896,
+    "badgeCnt": 105,
     "badgeId": 1001000072,
     "seasonId": 39,
-    "liked": 20118,
+    "liked": 20134,
     "showRank": true,
-    "lastLoginAt": "1716805711",
+    "lastLoginAt": "1717066157",
     "csRank": 219,
-    "csRankingPoints": 84,
+    "csRankingPoints": 88,
     "weaponSkinShows": [
       907192607,
       912034002
@@ -298,8 +305,9 @@ GET https://free-ff-api.vercel.app/api/v1/account?region=IND&uid=1633864660
   "creditScoreInfo": {
     "creditScore": 100,
     "rewardState": "REWARD_STATE_UNCLAIMED",
-    "periodicSummaryLikeCnt": 5,
-    "periodicSummaryStartTime": "4",
+    "periodicSummaryLikeCnt": 30,
+    "periodicSummaryIllegalCnt": 1,
+    "periodicSummaryStartTime": "15",
     "periodicSummaryEndTime": "1716776753"
   },
   "equippedAch": [
@@ -321,6 +329,7 @@ GET https://free-ff-api.vercel.app/api/v1/account?region=IND&uid=1633864660
     }
   ]
 }
+
 ```
 
 # ⚙️ Craftland Profile Information
