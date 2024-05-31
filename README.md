@@ -515,7 +515,7 @@ GET https://free-ff-api.vercel.app/api/v1/playerstats?region=IND&uid=1633864660
 
 | Parameter | Type   | Required | Description                                   |
 |-----------|--------|----------|-----------------------------------------------|
-| `region`  | string | Yes      | The region code (e.g., "IND").                |
+| `region`  | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, `VN`, `TH`, `ME`, `PK`).                |
 | `uid`     | string | Yes      | The user ID of the player.                    |
 
 ### 📨 Request Example
