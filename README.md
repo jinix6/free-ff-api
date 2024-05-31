@@ -505,7 +505,7 @@ GET https://free-ff-api.vercel.app/api/v1/playerstats?region=IND&uid=1633864660
 ```
 
 
-# Wishlist Items
+# 🎫 Wishlist Items
 
 **Endpoint:** `/api/v1/wishlistitems`  
 **Method:** `GET`  
