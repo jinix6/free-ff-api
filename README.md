@@ -504,6 +504,59 @@ GET https://free-ff-api.vercel.app/api/v1/playerstats?region=IND&uid=1633864660
 ```
 
 
+# Wishlist Items
+
+**Endpoint:** `/api/v1/wishlistitems`  
+**Method:** `GET`  
+**Description:** Retrieve a list of items from a user's wishlist, including item IDs and their release times.
+
+### ☑️ Query Parameters:
+
+| Parameter | Type   | Required | Description                                   |
+|-----------|--------|----------|-----------------------------------------------|
+| `region`  | string | Yes      | The region code (e.g., "IND").                |
+| `uid`     | string | Yes      | The user ID of the player.                    |
+
+### 📨 Request Example
+```http
+GET https://free-ff-api.vercel.app/api/v1/wishlistitems?region=IND&uid=1187946149
+```
+### 💬 Response Example
+```json
+{
+  "items": [
+    {
+      "itemId": 203043011,
+      "releaseTime": "1707786123"
+    },
+    {
+      "itemId": 204043011,
+      "releaseTime": "1707786123"
+    },
+    {
+      "itemId": 205043011,
+      "releaseTime": "1707786123"
+    },
+    {
+      "itemId": 211000589,
+      "releaseTime": "1706471849"
+    },
+    {
+      "itemId": 211043017,
+      "releaseTime": "1707786123"
+    },
+    {
+      "itemId": 904026008,
+      "releaseTime": "1709657470"
+    },
+    {
+      "itemId": 905042004,
+      "releaseTime": "1715897897"
+    }
+  ]
+}
+```
+
 
 
 # 😵 Error Responses
