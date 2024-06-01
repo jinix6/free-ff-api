@@ -18,7 +18,7 @@ This endpoint retrieves account information based on the specified region and us
 
 | Parameter | Type   | Required | Description                   |
 |-----------|--------|----------|-------------------------------|
-| `region`  | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, `VN`, `TH`, `ME`, `PK`).|
+| `region`  | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, `VN`, `TH`, `ME`, `PK`, `CIS`).|
 | `uid`     | string | Yes      | The user ID.                  |
 ### 📨 Request Example
 ```http
@@ -341,7 +341,7 @@ GET https://free-ff-api.vercel.app/api/v1/account?region=IND&uid=1633864660
 ### ☑️ Query Parameters
 | Parameter | Type   | Required | Description                   |
 |-----------|--------|----------|-------------------------------|
-| `region`  | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, `VN`, `TH`, `ME`, `PK`).|
+| `region`  | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, `VN`, `TH`, `ME`, `PK`, `CIS`).|
 | `uid`     | string | Yes      | The user ID.                  |
 ### 📨 Request Example
 ```http
@@ -401,7 +401,7 @@ GET https://free-ff-api.vercel.app/api/v1/craftlandProfile?region=IND&uid=163386
 
 | Parameter  | Type   | Required | Description                                   |
 |------------|--------|----------|-----------------------------------------------|
-| `region`   | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, `VN`, `TH`, `ME`, `PK`).                |
+| `region`   | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, `VN`, `TH`, `ME`, `PK`, `CIS`).                |
 | `map_code` | string | Yes      | The unique code of the Craftland map.         |
 
 ### 📨 Request Example
@@ -450,7 +450,7 @@ GET https://free-ff-api.vercel.app/api/v1/craftlandInfo?region=IND&map_code=2D1A
 
 | Parameter | Type   | Required | Description                                   |
 |-----------|--------|----------|-----------------------------------------------|
-| `region`  | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, `VN`, `TH`, `ME`, `PK`).                |
+| `region`  | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, `VN`, `TH`, `ME`, `PK`, `CIS`).                |
 | `uid`     | string | Yes      | The user ID of the player.                    |
 
 ### 📨 Request Example
@@ -515,7 +515,7 @@ GET https://free-ff-api.vercel.app/api/v1/playerstats?region=IND&uid=1633864660
 
 | Parameter | Type   | Required | Description                                   |
 |-----------|--------|----------|-----------------------------------------------|
-| `region`  | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, `VN`, `TH`, `ME`, `PK`).                |
+| `region`  | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, `VN`, `TH`, `ME`, `PK`, `CIS`).                |
 | `uid`     | string | Yes      | The user ID of the player.                    |
 
 ### 📨 Request Example
