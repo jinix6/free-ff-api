@@ -18,7 +18,7 @@ This endpoint retrieves account information based on the specified region and us
 
 | Parameter | Type   | Required | Description                   |
 |-----------|--------|----------|-------------------------------|
-| `region`  | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, `VN`, `TH`, `ME`, `PK`, `CIS`).|
+| `region`  | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, `VN`, `TH`, `ME`, `PK`, `CIS`, `BD`).|
 | `uid`     | string | Yes      | The user ID.                  |
 ### 📨 Request Example
 ```http
@@ -341,7 +341,7 @@ GET https://free-ff-api.onrender.com/api/v1/account?region=IND&uid=1633864660
 ### ☑️ Query Parameters
 | Parameter | Type   | Required | Description                   |
 |-----------|--------|----------|-------------------------------|
-| `region`  | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, `VN`, `TH`, `ME`, `PK`, `CIS`).|
+| `region`  | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, `VN`, `TH`, `ME`, `PK`, `CIS`, `BD`).|
 | `uid`     | string | Yes      | The user ID.                  |
 ### 📨 Request Example
 ```http
@@ -401,7 +401,7 @@ GET https://free-ff-api.onrender.com/api/v1/craftlandProfile?region=IND&uid=1633
 
 | Parameter  | Type   | Required | Description                                   |
 |------------|--------|----------|-----------------------------------------------|
-| `region`   | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, `VN`, `TH`, `ME`, `PK`, `CIS`).                |
+| `region`   | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, `VN`, `TH`, `ME`, `PK`, `CIS`, `BD`).                |
 | `map_code` | string | Yes      | The unique code of the Craftland map.         |
 
 ### 📨 Request Example
@@ -450,7 +450,7 @@ GET https://free-ff-api.onrender.com/api/v1/craftlandInfo?region=IND&map_code=2D
 
 | Parameter | Type   | Required | Description                                   |
 |-----------|--------|----------|-----------------------------------------------|
-| `region`  | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, `VN`, `TH`, `ME`, `PK`, `CIS`).                |
+| `region`  | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, `VN`, `TH`, `ME`, `PK`, `CIS`, `BD`).                |
 | `uid`     | string | Yes      | The user ID of the player.                    |
 
 ### 📨 Request Example
@@ -515,7 +515,7 @@ GET https://free-ff-api.onrender.com/api/v1/playerstats?region=IND&uid=163386466
 
 | Parameter | Type   | Required | Description                                   |
 |-----------|--------|----------|-----------------------------------------------|
-| `region`  | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, `VN`, `TH`, `ME`, `PK`, `CIS`).                |
+| `region`  | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, `VN`, `TH`, `ME`, `PK`, `CIS`, `BD`).                |
 | `uid`     | string | Yes      | The user ID of the player.                    |
 
 ### 📨 Request Example
