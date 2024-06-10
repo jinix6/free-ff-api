@@ -640,8 +640,13 @@ If there are errors in the request, the API will return an appropriate error mes
   "message": "Empty 'map_code' parameter. Please provide a valid 'map_code'."
 }
 ```
-
-
+#### ⚠️ Error Example (Invalid guildID)
+```json
+{
+  "error": "Invalid request",
+  "message": "Empty 'guildID' parameter. Please provide a valid 'guildID'."
+}
+```
 
 
 
