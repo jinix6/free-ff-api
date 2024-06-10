@@ -628,7 +628,7 @@ If there are errors in the request, the API will return an appropriate error mes
 ```json
 {
   "error": "Invalid request",
-  "message": "Unsupported 'region' parameter. Supported regions are: IND, BR, SG, RU, ID, TW, US, VN, TH, ME, PK."
+  "message": "Unsupported 'region' parameter. Supported regions are: IND, BR, SG, RU, ID, TW, US, VN, TH, ME, PK, CIS, BD."
 }
 ```
 
