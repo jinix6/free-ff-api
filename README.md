@@ -559,6 +559,51 @@ GET https://free-ff-api.onrender.com/api/v1/wishlistitems?region=IND&uid=1187946
 ```
 
 
+# 👨‍👨‍👦‍👦 Guild Information
+
+**Endpoint:** `/api/v1/guildInfo`  
+**Method:** `GET`  
+**Description:** Retrieve detailed information about Free Fire guilds by querying this API with the guild's region and ID. Receive data such as guild name, creation date, level, member count, and more in JSON format.
+
+### ☑️ Query Parameters:
+
+| Parameter | Type   | Required | Description                                   |
+|-----------|--------|----------|-----------------------------------------------|
+| `region`  | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, `VN`, `TH`, `ME`, `PK`, `CIS`, `BD`).                |
+| `guildID`     | string | Yes      | The Guild ID.                    |
+
+### 📨 Request Example
+```http
+GET https://free-ff-api.onrender.com/api/v1/guildInfo?region=IND&guildID=3033195648
+```
+### 💬 Response Example
+```json
+{
+  "clanId": "3033195648",
+  "clanName": "2ɢʙㅤᴏᴅɪsʜᴀ࿐",
+  "createAt": "1716084498",
+  "captainId": "1633864660",
+  "clanLevel": 4,
+  "capacity": 35,
+  "memberNum": 23,
+  "entryType": 2,
+  "slogan": "Welcome!",
+  "region": "IND",
+  "misc": "{\"tags\": [14]}",
+  "viceCaptains": "[1225808035,1447912709,2403464644]",
+  "areaId": 51930,
+  "deputyCaptain": "2000209368",
+  "frameId": 16,
+  "lastModifyAnnounceAt": "29831",
+  "serialInactiveNum": 190,
+  "isCertification": true
+}
+```
+
+
+
+
+
 
 # 😵 Error Responses
 If there are errors in the request, the API will return an appropriate error message.
