@@ -6,7 +6,8 @@
 3. [Craftland Profile Information](https://github.com/jinix6/free-ff-api?tab=readme-ov-file#%EF%B8%8F-craftland-profile-information)
 4. [Craftland Map Information](https://github.com/jinix6/free-ff-api?tab=readme-ov-file#-craftland-map-information)
 5. [WishList Items](https://github.com/jinix6/free-ff-api#-wishlist-items)
-6. [Error Responses](https://github.com/jinix6/free-ff-api#-error-responses)
+6. [Guild Information](https://github.com/jinix6/free-ff-api#-guild-information)
+7. [Error Responses](https://github.com/jinix6/free-ff-api#-error-responses)
 
 # 🪪 Account Information
 **Endpoint:** `/api/v1/account`  
