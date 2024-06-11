@@ -1,3 +1,17 @@
+# API Update
+
+**Date: 11 Jun**
+
+### Changes Implemented:
+
+1. **Cache System**
+   - Data is cached for a duration of 5 minutes, improving the efficiency of repeated requests.
+
+2. **Decreased Response Time**
+   - Significant optimization has been applied to reduce the response time of the API.
+
+
+
 # 📝 API Documentation
 
 ## 📌 Table of Contents
