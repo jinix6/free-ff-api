@@ -37,7 +37,7 @@ This endpoint retrieves account information based on the specified region and us
 | `uid`     | string | Yes      | The user ID.                  |
 ### 📨 Request Example
 ```http
-GET https://free-ff-api.onrender.com/api/v1/account?region=IND&uid=1633864660
+GET https://free-ff-api-src-dcu9.onrender.com/api/v1/account?region=IND&uid=1633864660
 ```
 
 
@@ -360,7 +360,7 @@ GET https://free-ff-api.onrender.com/api/v1/account?region=IND&uid=1633864660
 | `uid`     | string | Yes      | The user ID.                  |
 ### 📨 Request Example
 ```http
-GET https://free-ff-api.onrender.com/api/v1/craftlandProfile?region=IND&uid=1633864660
+GET https://free-ff-api-src-dcu9.onrender.com/api/v1/craftlandProfile?region=IND&uid=1633864660
 ```
 ### 💬 Response Example
 
@@ -421,7 +421,7 @@ GET https://free-ff-api.onrender.com/api/v1/craftlandProfile?region=IND&uid=1633
 
 ### 📨 Request Example
 ```http
-GET https://free-ff-api.onrender.com/api/v1/craftlandInfo?region=IND&map_code=2D1AA949DD77714ABB1FA0CE3ECCAFB34660
+GET https://free-ff-api-src-dcu9.onrender.com/api/v1/craftlandInfo?region=IND&map_code=2D1AA949DD77714ABB1FA0CE3ECCAFB34660
 ```
 
 ### 💬 Response Example
@@ -470,7 +470,7 @@ GET https://free-ff-api.onrender.com/api/v1/craftlandInfo?region=IND&map_code=2D
 
 ### 📨 Request Example
 ```http
-GET https://free-ff-api.onrender.com/api/v1/playerstats?region=IND&uid=1633864660
+GET https://free-ff-api-src-dcu9.onrender.com/api/v1/playerstats?region=IND&uid=1633864660
 ```
 ### 💬 Response Example
 ```json
@@ -535,7 +535,7 @@ GET https://free-ff-api.onrender.com/api/v1/playerstats?region=IND&uid=163386466
 
 ### 📨 Request Example
 ```http
-GET https://free-ff-api.onrender.com/api/v1/wishlistitems?region=IND&uid=1187946149
+GET https://free-ff-api-src-dcu9.onrender.com/api/v1/wishlistitems?region=IND&uid=1187946149
 ```
 ### 💬 Response Example
 ```json
@@ -589,7 +589,7 @@ GET https://free-ff-api.onrender.com/api/v1/wishlistitems?region=IND&uid=1187946
 
 ### 📨 Request Example
 ```http
-GET https://free-ff-api.onrender.com/api/v1/guildInfo?region=IND&guildID=3033195648
+GET https://free-ff-api-src-dcu9.onrender.com/api/v1/guildInfo?region=IND&guildID=3033195648
 ```
 ### 💬 Response Example
 ```json
